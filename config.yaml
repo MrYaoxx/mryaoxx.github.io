@@ -61,7 +61,7 @@ params:
 
     comments:
         enabled: true
-        provider: utterances
+        provider: twikoo
 
         disqusjs:
             shortname:
@@ -104,7 +104,7 @@ params:
                 placeholder:
 
         twikoo:
-            envId:
+            envId: https://mryaoxx.github.io
             region:
             path:
             lang:
