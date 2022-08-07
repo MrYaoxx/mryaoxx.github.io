@@ -54,7 +54,7 @@ search:
 
 footer:
     statistics:
-        other: 共 {{ .PassageNum }} 篇文章 😜 总计 {{ .WordNum.Get "total" }} 字
+        other: 共 {{ .PassageNum }} 篇文章 | 总计 {{ .WordNum.Get "total" }} 字
 
     builtWith:
         other: Built with {{ .Generator }}
