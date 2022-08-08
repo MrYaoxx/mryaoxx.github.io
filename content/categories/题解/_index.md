@@ -1,7 +1,7 @@
 ---
 title: 题解
 description: 
-image: img/3.jpg
+image: cover/3.jpg
 
 # Badge style
 style:

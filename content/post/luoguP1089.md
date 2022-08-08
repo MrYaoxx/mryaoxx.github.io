@@ -4,7 +4,7 @@ date: 2022-07-26T17:00:17+08:00
 draft: false
 categories:	[题解]
 tags: [模拟, 字符串]
-image: "img/8.jpg"
+image: "cover/8.jpg"
 ---
 
 # [P1098 [NOIP2007 提高组] 字符串的展开](https://www.luogu.org/problemnew/show/P1098)

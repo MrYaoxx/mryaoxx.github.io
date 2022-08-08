@@ -4,6 +4,6 @@ date: {{ .Date }}
 draft: true
 categories:	[]
 tags: []
-image: "img/*.jpg"
+image: "cover/*.jpg"
 ---
 

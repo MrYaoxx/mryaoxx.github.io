@@ -1,7 +1,7 @@
 ---
 title: 模板
 description: OI模板
-image: img/2.jpg
+image: cover/2.jpg
 
 # Badge style
 style:

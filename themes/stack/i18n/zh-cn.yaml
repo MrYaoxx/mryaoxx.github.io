@@ -53,8 +53,12 @@ search:
         other: "#PAGES_COUNT 个结果 （用时 #TIME_SECONDS 秒）"
 
 footer:
+    time:
+        other: 本站已安全运行 {{ .Time }}
+        icon: clock
+
     statistics:
-        other: 共 {{ .PassageNum }} 篇文章 | 总计 {{ .WordNum.Get "total" }} 字
+        other: 总访问量 {{ .PV }} 次 | 访客 {{ .UV }} 人 | 共 {{ .PassageNum }} 篇文章
 
     builtWith:
         other: Built with {{ .Generator }}
