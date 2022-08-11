@@ -3,7 +3,7 @@ title: "洛谷P2585 [ZJOI2006]三色二叉树"
 date: 2022-08-07T19:13:10+08:00
 draft: false
 categories:	[题解]
-tags: [树形DP]
+tags: [动态规划]
 image: "cover/22.jpg"
 ---
 

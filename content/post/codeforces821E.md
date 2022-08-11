@@ -3,7 +3,7 @@ title: "[Codeforces821E] Okabe and El Psy Kongroo"
 date: 2022-08-08T14:57:46+08:00
 draft: false
 categories:	[题解]
-tags: [DP, 矩阵快速幂]
+tags: [动态规划, 矩阵快速幂]
 image: "cover/23.jpg"
 ---
 
