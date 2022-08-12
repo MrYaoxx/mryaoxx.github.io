@@ -55,7 +55,6 @@ search:
 footer:
     time:
         other: 本站已安全运行 {{ .Time }}
-        icon: clock
 
     statistics:
         other: 总访问量 {{ .PV }} 次 | 访客 {{ .UV }} 人 | 共 {{ .PassageNum }} 篇文章

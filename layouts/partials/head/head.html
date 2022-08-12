@@ -1,0 +1,45 @@
+<meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+
+{{- $description := partialCached "data/description" . .RelPermalink -}}
+<meta name='description' content='{{ $description }}'>
+
+{{- $title := partialCached "data/title" . .RelPermalink -}}
+<title>{{ $title }}</title>
+
+<link rel='canonical' href='{{ .Permalink }}'>
+
+{{- partial "head/style.html" . -}}
+{{- partial "head/script.html" . -}}
+{{- partial "head/opengraph/include.html" . -}}
+
+{{- range .AlternativeOutputFormats -}}
+<link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}">
+{{- end -}}
+
+{{ with .Site.Params.favicon }}
+<link rel="shortcut icon" href=" {{ . }}" />
+{{ end }}
+
+{{- template "_internal/google_analytics.html" . -}}
+{{- partial "head/custom.html" . -}}
+
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<script>
+    var now = new Date();
+    function createtime() {
+        var grt = new Date("07/26/2022 00:00:00");//在此处修改你的建站时间
+        now.setTime(now.getTime() + 250);
+        days = (now - grt) / 1000 / 60 / 60 / 24; dnum = Math.floor(days);
+        hours = (now - grt) / 1000 / 60 / 60 - (24 * dnum); hnum = Math.floor(hours);
+        if (String(hnum).length == 1) { hnum = "0" + hnum; } minutes = (now - grt) / 1000 / 60 - (24 * 60 * dnum) - (60 * hnum);
+        mnum = Math.floor(minutes); if (String(mnum).length == 1) { mnum = "0" + mnum; }
+        seconds = (now - grt) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum);
+        snum = Math.round(seconds); if (String(snum).length == 1) { snum = "0" + snum; }
+        document.getElementById("timeDate").innerHTML = dnum + " 天 ";
+        document.getElementById("times").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒";
+    }
+    setInterval("createtime()", 250);
+</script>
