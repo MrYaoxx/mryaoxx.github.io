@@ -64,7 +64,7 @@ $b - a - 1$ 就是包含第 $i$ 个矩形的长(或宽)
 
 若要求最大正方形, 答案为 $min(h_i , j - k - 1)$
 
-## 真·题解 😎
+### 真·题解 😎
 
 ![3](img/luoguP1387-3.png)
 
@@ -92,7 +92,7 @@ $b - a - 1$ 就是包含第 $i$ 个矩形的长(或宽)
 3. 用单调栈(递增)求出最小的 $b \gt j$, 使得 $h_b < h_j$
 
 
-## Code
+### Code
 ```cpp
 #include <bits/stdc++.h>
 using namespace std;
