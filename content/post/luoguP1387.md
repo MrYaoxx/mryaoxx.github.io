@@ -4,7 +4,7 @@ date: 2022-08-19T12:49:01+08:00
 draft: false
 categories: [题解]
 tags: [单调栈]
-image: "cover/28.jpg"
+image: "cover/28.png"
 ---
 
 # [最大正方形](https://www.luogu.com.cn/problem/P1387)

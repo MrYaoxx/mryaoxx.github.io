@@ -4,7 +4,7 @@ date: 2022-08-11T16:12:18+08:00
 draft: false
 categories: [划水]
 tags: [线段树, 图论, 最短路, 二分]
-image: "cover/25.jpg"
+image: "cover/25.png"
 ---
 
 # A+B Problem

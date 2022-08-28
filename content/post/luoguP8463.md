@@ -4,7 +4,7 @@ date: 2022-08-08T16:46:04+08:00
 draft: false
 categories:	[题解]
 tags: [线段树]
-image: "cover/24.jpg"
+image: "cover/24.png"
 ---
 
 # [「REOI-1」深潜的第六兽](https://www.luogu.com.cn/problem/P8463)

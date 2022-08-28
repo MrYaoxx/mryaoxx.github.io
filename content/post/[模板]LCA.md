@@ -4,7 +4,7 @@ date: 2022-07-27T08:50:36+08:00
 draft: false
 categories:	[模板]
 tags: [数据结构]
-image: "cover/10.jpg"
+image: "cover/10.png"
 ---
 
 ```cpp

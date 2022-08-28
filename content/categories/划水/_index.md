@@ -1,7 +1,7 @@
 ---
 title: 划水
 description: 
-image: cover/27.jpg
+image: cover/27.png
 
 # Badge style
 style:

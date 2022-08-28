@@ -1,7 +1,7 @@
 ---
 title: 摸鱼
 description: 
-image: cover/1.jpg
+image: cover/1.png
 
 # Badge style
 style:
